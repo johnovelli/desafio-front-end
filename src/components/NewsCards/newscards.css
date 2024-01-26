@@ -1,0 +1,83 @@
+.newsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 0 auto;
+  max-width: 930px;
+  width: 100%;
+}
+
+.news {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 5px 20px 5px;
+  width: 290px;
+}
+
+.favorite {
+  border-top: solid 0.5px lightgray;
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+.favorite button {
+  background-color: transparent;
+  border: none;
+  margin-top: 3px;
+}
+
+.favorite img {
+  height: 20px;
+  margin: 2px 0 2px 0;
+}
+
+.news h4 {
+  margin: 5px 5px 0 5px;
+}
+
+.newsIntro {
+  font-size: 15px;
+  margin: 5px 5px 0 5px;
+}
+
+.newsIntroBot {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px 0 5px;
+}
+
+.newsIntroBot p {
+  margin: 0;
+}
+
+.leia-btn {
+  background-color: #05d465;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  font-weight: bold;
+  height: 30px;
+  width: 130px;
+}
+
+.leia-btn:hover {
+  background-color: #04a556;
+}
+
+.showMore {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.showMore button {
+  margin: 0 5px 0 5px;
+}

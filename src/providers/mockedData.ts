@@ -1,0 +1,48 @@
+export const mockedData = [
+  {
+    id: 38929,
+    tipo: 'Release',
+    titulo: 'Em novembro, vendas no varejo variam 0,1%',
+    introducao: 'Em novembro',
+    data_publicacao: '17/01/2024 09:00:00',
+    produto_id: 9227,
+    produtos: '9227|Pesquisa Mensal de Comércio|pesquisa-mensal-de-comercio|2075',
+    editorias: 'economicas',
+    imagens: `{
+      "image_intro":"images\\/agenciadenoticias\\/releases\\/PMC_release.png",
+      "float_intro":"",
+      "image_intro_alt":"",
+      "image_intro_caption":"",
+      "image_fulltext":"images\\/agenciadenoticias\\/releases\\/PMC_release.png",
+      "float_fulltext":"",
+      "image_fulltext_alt":"",
+      "image_fulltext_caption":""
+    }`,
+    produtos_relacionados: '9227',
+    destaque: true,
+    link: 'http://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38929-vendas-no-varejo-variam-0-1.html',
+  },
+  {
+    id: 38928,
+    tipo: 'Noticia',
+    titulo: 'Em novembro, vendas no varejo variam 0,1%',
+    introducao: 'Em novembro',
+    data_publicacao: '17/01/2024 09:00:00',
+    produto_id: 9224,
+    produtos: '9227|Pesquisa Mensal de Comércio|pesquisa-mensal-de-comercio|2075',
+    editorias: 'economicas',
+    imagens: `{
+      "image_intro":"images\\/agenciadenoticias\\/releases\\/PMC_release.png",
+      "float_intro":"",
+      "image_intro_alt":"",
+      "image_intro_caption":"",
+      "image_fulltext":"images\\/agenciadenoticias\\/releases\\/PMC_release.png",
+      "float_fulltext":"",
+      "image_fulltext_alt":"",
+      "image_fulltext_caption":""
+    }`,
+    produtos_relacionados: '9227',
+    destaque: true,
+    link: 'http://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38929-vendas-no-varejo-variam-0-1.html',
+  },
+];
