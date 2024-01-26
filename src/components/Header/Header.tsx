@@ -12,10 +12,10 @@ function Header() {
         </div>
       </div>
       <nav className="header-links">
-        <Link to="/">Mais recentes</Link>
-        <Link to="/noticia">Notícia</Link>
-        <Link to="/release">Release</Link>
-        <Link to="/favoritos">Favoritos</Link>
+        <Link to="/desafio-front-end/">Mais recentes</Link>
+        <Link to="/desafio-front-end/noticia">Notícia</Link>
+        <Link to="/desafio-front-end/release">Release</Link>
+        <Link to="/desafio-front-end/favoritos">Favoritos</Link>
       </nav>
     </header>
   );
