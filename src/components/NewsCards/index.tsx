@@ -42,8 +42,8 @@ function NewsCards({ newsList } : NewsCardsType) {
           <div>
             <div className="newsIntroBot">
               {newsDate(news.data_publicacao) === 1
-                ? (<p>{`${newsDate(news.data_publicacao)} dia atras`}</p>)
-                : (<p>{`${newsDate(news.data_publicacao)} dias atras`}</p>)}
+                ? (<p>{`${newsDate(news.data_publicacao)} dia atrás`}</p>)
+                : (<p>{`${newsDate(news.data_publicacao)} dias atrás`}</p>)}
               <button
                 className="leia-btn"
               >

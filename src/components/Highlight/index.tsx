@@ -23,8 +23,8 @@ function Hightlight({ highlight } : HightlightType) {
           <p className="highlightIntro">{highlight.introducao}</p>
           <div className="hightlightIntroBot">
             {newsDate(highlight.data_publicacao) === 1
-              ? (<p>{`${newsDate(highlight.data_publicacao)} dia atras`}</p>)
-              : (<p>{`${newsDate(highlight.data_publicacao)} dias atras`}</p>)}
+              ? (<p>{`${newsDate(highlight.data_publicacao)} dia atrás`}</p>)
+              : (<p>{`${newsDate(highlight.data_publicacao)} dias atrás`}</p>)}
             <button data-testid="leia-a-notcia" className="leia-btn">
               <a href={ highlight.link } target="_blank" rel="noreferrer">
                 Leia a notícia aqui

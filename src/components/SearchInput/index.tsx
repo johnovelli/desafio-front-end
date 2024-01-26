@@ -23,7 +23,7 @@ function SearchInput({ list, onSearch }: SearchInputType) {
   return (
     <section className="search-input-section">
       <label htmlFor="search-input" className="search-input-label">
-        Pesquisa por titulo:
+        Pesquisa por título:
       </label>
       <input
         id="search-input"
