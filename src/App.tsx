@@ -10,11 +10,11 @@ function App() {
   return (
     <AppProvider>
       <Routes>
-        <Route path="/" element={ <Main /> }>
-          <Route path="/" element={ <News /> } />
-          <Route path="/noticia" element={ <NewsList /> } />
-          <Route path="/release" element={ <ReleaseList /> } />
-          <Route path="/favoritos" element={ <Favorites /> } />
+        <Route path="/desafio-front-end/" element={ <Main /> }>
+          <Route path="/desafio-front-end/" element={ <News /> } />
+          <Route path="/desafio-front-end/noticia" element={ <NewsList /> } />
+          <Route path="/desafio-front-end/release" element={ <ReleaseList /> } />
+          <Route path="/desafio-front-end/favoritos" element={ <Favorites /> } />
         </Route>
       </Routes>
     </AppProvider>
