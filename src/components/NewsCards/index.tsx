@@ -44,8 +44,12 @@ function NewsCards({ newsList } : NewsCardsType) {
               {newsDate(news.data_publicacao) === 1
                 ? (<p>{`${newsDate(news.data_publicacao)} dia atras`}</p>)
                 : (<p>{`${newsDate(news.data_publicacao)} dias atras`}</p>)}
-              <button className="leia-btn">
-                Leia a notícia aqui
+              <button
+                className="leia-btn"
+              >
+                <a href={ news.link } target="_blank" rel="noreferrer">
+                  Leia a notícia aqui
+                </a>
               </button>
             </div>
             <div className="favorite">

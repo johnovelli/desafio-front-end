@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-max-depth */
 import { newsDate } from '../functions/newsDate';
 import { NewsType } from '../../types';
 import './highlight.css';
@@ -24,8 +25,10 @@ function Hightlight({ highlight } : HightlightType) {
             {newsDate(highlight.data_publicacao) === 1
               ? (<p>{`${newsDate(highlight.data_publicacao)} dia atras`}</p>)
               : (<p>{`${newsDate(highlight.data_publicacao)} dias atras`}</p>)}
-            <button data-testid="leia-a-noticia" className="leia-btn">
-              Leia a notícia aqui
+            <button data-testid="leia-a-notcia" className="leia-btn">
+              <a href={ highlight.link } target="_blank" rel="noreferrer">
+                Leia a notícia aqui
+              </a>
             </button>
           </div>
         </div>
